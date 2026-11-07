@@ -4,7 +4,7 @@ Ranks AI agents by the sensitive data they can reach and whether they can move i
 Runs on synthetic data. Python standard library only.
 
 ## The problem
-[2-3 sentences: agents inherit permissions and connectors; maker credentials and
+ Agents inherit permissions and connectors; maker credentials and
 connected sites can expose labeled data; prompt injection turns that into exfiltration.]
 
 ## How it works
@@ -12,7 +12,6 @@ score = (sum of label weight x sensitive items) x capability x identity x audien
 Any agent with private data + untrusted content + an outbound path is Critical.
 [Table of weights and one sentence of reasoning each.]
 
-## Results
 ## Results
 
 | Rank | Agent | Tier | Score | Auth | Trifecta | Riskiest path |
