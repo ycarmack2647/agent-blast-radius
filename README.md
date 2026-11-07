@@ -32,7 +32,7 @@ more sensitive data, but it has no untrusted input, so an outsider has no direct
 to hijack it. Critical tier reflects how easy an attack is; score reflects how much
 damage is possible.
 ## Design decision
-[Your answer to the Session 2 design question: trifecta vs raw score.]
+My answer to the Session 2 design question: trifecta vs raw score.
 
 ## Mapping to real controls
 - Maker credentials -> Copilot Studio end-user authentication / maker credential controls
