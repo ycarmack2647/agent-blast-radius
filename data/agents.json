@@ -1,0 +1,79 @@
+[
+    {
+        "id": "agt-hr-helper",
+        "name": "HR Benefits Helper",
+        "owner": "hr.maker@example.org",
+        "auth": "maker",
+        "shared_with": "org",
+        "sources": [
+            "src-hr",
+            "src-payroll",
+            "src-policies"
+        ],
+        "actions": [
+            "read",
+            "send_email"
+        ]
+    },
+    {
+        "id": "agt-fare-triage",
+        "name": "Fare Dispute Triage",
+        "owner": "cx.lead@example.org",
+        "auth": "end_user",
+        "shared_with": "team",
+        "sources": [
+            "src-fare",
+            "src-helpdesk-inbox"
+        ],
+        "actions": [
+            "read",
+            "write",
+            "send_email"
+        ]
+    },
+    {
+        "id": "agt-policy-qa",
+        "name": "Policy Q&A Bot",
+        "owner": "comms@example.org",
+        "auth": "end_user",
+        "shared_with": "org",
+        "sources": [
+            "src-policies",
+            "src-ops",
+            "src-web"
+        ],
+        "actions": [
+            "read"
+        ]
+    },
+    {
+        "id": "agt-vendor-summarizer",
+        "name": "Vendor Contract Summarizer",
+        "owner": "procurement@example.org",
+        "auth": "maker",
+        "shared_with": "team",
+        "sources": [
+            "src-vendor",
+            "src-web"
+        ],
+        "actions": [
+            "read",
+            "http_request"
+        ]
+    },
+    {
+        "id": "agt-it-assist",
+        "name": "IT Ticket Assistant",
+        "owner": "it.ops@example.org",
+        "auth": "end_user",
+        "shared_with": "team",
+        "sources": [
+            "src-it-tickets",
+            "src-ops"
+        ],
+        "actions": [
+            "read",
+            "write"
+        ]
+    }
+]

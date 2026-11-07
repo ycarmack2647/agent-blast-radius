@@ -1,0 +1,83 @@
+[
+    {
+        "id": "src-hr",
+        "name": "HR Employee Records site",
+        "type": "sharepoint",
+        "label": "High",
+        "sensitive_items": 420,
+        "untrusted": false,
+        "external_sharing": false
+    },
+    {
+        "id": "src-payroll",
+        "name": "Payroll Exports library",
+        "type": "sharepoint",
+        "label": "High",
+        "sensitive_items": 260,
+        "untrusted": false,
+        "external_sharing": true
+    },
+    {
+        "id": "src-fare",
+        "name": "Fare Card Disputes site",
+        "type": "sharepoint",
+        "label": "Medium",
+        "sensitive_items": 310,
+        "untrusted": false,
+        "external_sharing": false
+    },
+    {
+        "id": "src-ops",
+        "name": "Operations Procedures site",
+        "type": "sharepoint",
+        "label": "Low",
+        "sensitive_items": 15,
+        "untrusted": false,
+        "external_sharing": false
+    },
+    {
+        "id": "src-policies",
+        "name": "Public Policies site",
+        "type": "sharepoint",
+        "label": "Public",
+        "sensitive_items": 0,
+        "untrusted": false,
+        "external_sharing": true
+    },
+    {
+        "id": "src-vendor",
+        "name": "Vendor Contracts site",
+        "type": "sharepoint",
+        "label": "Medium",
+        "sensitive_items": 90,
+        "untrusted": false,
+        "external_sharing": true
+    },
+    {
+        "id": "src-helpdesk-inbox",
+        "name": "Customer Helpdesk shared mailbox",
+        "type": "mailbox",
+        "label": "Medium",
+        "sensitive_items": 140,
+        "untrusted": true,
+        "external_sharing": false
+    },
+    {
+        "id": "src-web",
+        "name": "Public web search",
+        "type": "web",
+        "label": "Public",
+        "sensitive_items": 0,
+        "untrusted": true,
+        "external_sharing": false
+    },
+    {
+        "id": "src-it-tickets",
+        "name": "IT Ticket table (Dataverse)",
+        "type": "dataverse",
+        "label": "Low",
+        "sensitive_items": 35,
+        "untrusted": false,
+        "external_sharing": false
+    }
+]
