@@ -5,7 +5,7 @@ Runs on synthetic data. Python standard library only.
 
 ## The problem
  Agents inherit permissions and connectors; maker credentials and
-connected sites can expose labeled data; prompt injection turns that into exfiltration.]
+connected sites can expose labeled data; prompt injection turns that into exfiltration.
 
 ## How it works
 score = (sum of label weight x sensitive items) x capability x identity x audience
